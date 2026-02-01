@@ -51,5 +51,5 @@ FinSight AI is a personal finance analytics application that converts raw transa
 
 👤 Author
 
-Tejas Gurav
+Tejas Gurav  
 Data Engineering & AI Enthusiast
