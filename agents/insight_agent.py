@@ -19,7 +19,7 @@ class InsightAgent:
 
         if savings_rate >= 0.40:
             health_score, health_label = 90, "Excellent"
-        elif savings_rate >= 0.25:
+        elif savings_rate >= 0.30:
             health_score, health_label = 70, "Stable"
         else:
             health_score, health_label = 40, "Critical"
@@ -30,7 +30,7 @@ class InsightAgent:
 
         income_by_month = (
             income_df.groupby("month")["amount"].sum()
-            .reindex(order, fill_value=0)               
+            .reindex(order, fill_value=0)
         )
 
         expense_by_month = (
