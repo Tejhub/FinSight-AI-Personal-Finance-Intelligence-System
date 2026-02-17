@@ -1,9 +1,13 @@
-pandas
-numpy
-openai
+groq
 langchain
 langchain-community
+langchain-text-splitters
+sentence-transformers
 faiss-cpu
+rapidfuzz
+python-dotenv
+pandas
+numpy
 streamlit
 matplotlib
-python-dotenv
+langchain-groq
